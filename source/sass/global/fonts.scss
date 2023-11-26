@@ -1,0 +1,20 @@
+//Не работает
+@font-face {
+  font-family: 'PT Sans Narrow';
+  font-weight: 400;
+  font-style: normal;
+  /* font-display: swap; */
+  src: url('../../fonts/PTSansNarrow-Regular.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'PT Sans Narrow';
+  font-weight: 700;
+  font-style: normal;
+  /* font-display: swap; */
+  src: url('../../fonts/PTSansNarrow-Bold.ttf') format(truetype);
+}
+ //---------
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
