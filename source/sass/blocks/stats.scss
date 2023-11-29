@@ -1,0 +1,46 @@
+.stats {
+  background-color: $darkgrey;
+  color: #ffffff;
+}
+
+.stats__wrapper {
+  @media (min-width: $tablet-width) {
+    padding: 0 64px;
+  }
+
+  @media (min-width: $desktop-width) {
+    max-width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2 fr;
+  }
+}
+
+.stats__header {
+  background-color: #ffffff;
+  color: $text-color-dark;
+}
+
+.stats__slogan,
+.stats__intro,
+.stats__legend,
+.stats__description {
+  margin: 0;
+}
+
+.stats__list {
+  outline: 2px solid yellowgreen;
+  outline-offset: -2px;
+}
+
+.stats__legend--top {
+  @media (max-width: $mobile-width-only) {
+    display: none;
+  }
+}
+
+.stats__legend--bottom {
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}

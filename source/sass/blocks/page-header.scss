@@ -1,0 +1,24 @@
+
+  .page-header {
+    display: flex;
+    flex-direction: column;
+    background-color: $darkgrey;
+    color: $text-color-light;
+  }
+
+  .page-header__logo {
+    height: 85px;
+    /* background-color: $darkgrey; */
+  
+    @media (min-width: $tablet-width) {
+      order: 2;
+      height: 397px;
+    }
+
+    @media (min-width: 1024px) {
+      height: 651px;
+    }
+  }
+
+
+

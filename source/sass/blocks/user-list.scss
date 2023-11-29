@@ -1,0 +1,16 @@
+.user-list {
+  outline: 5px solid rgba(0, 255, 0, 0.8);
+  outline-offset: -5px;
+}
+
+@media (min-width: $tablet-width) {
+  .user-list {
+    width: 60px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .user-list {
+    width: 150px;
+  }
+}
